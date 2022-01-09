@@ -1,0 +1,32 @@
+header {
+  height: 45em;
+  background: url(https://i.picsum.photos/id/1033/1600/900.jpg?hmac=fho6EJlR9g9FgJp8iRzVOW6o-w5fPFQSJul5vYm0Abg) no-repeat center;
+  position: relative;
+  margin-bottom: 4em;
+
+}
+
+header::before {
+  content: ' ' ;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0);
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+p {
+  max-width: 35em;
+}
+
+section {padding: 4em 0;}
+
+h2{ margin-bottom: 1.5em;}
+
+@media screen and (max-width:600px) {
+  header {
+    height: 30em;
+  }
+}
